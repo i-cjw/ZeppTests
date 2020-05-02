@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Buffers.fs" />
+    <Compile Include="TestCreation.fs" />
+    <Compile Include="TestPush.fs" />
+    <Compile Include="TestPull.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="benchmarkdotnet" Version="0.12.1" />
+  </ItemGroup>
+
+</Project>
